@@ -1,0 +1,10 @@
+#!/bin/bash -x
+
+#Declare part time employee working duration
+halfdayhour=4
+#Wage per hour amount
+wageperhour=20
+#Part time employee daily wage
+parttimewage=$(( $halfdayhour *$wageperhour ))
+#Print the part time wage
+echo $parttimewage
